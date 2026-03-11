@@ -2,10 +2,8 @@ package minggu5;
 public class Faktorial {
     int faktorialBF(int n){
         int fakto = 1;
-        int i = 1;
-        while (i<=n){
-            fakto = fakto *i;
-            i++;
+        for(int i = 1; i <= n; i++){
+            fakto = fakto * i;
         }
         return fakto;
     }
